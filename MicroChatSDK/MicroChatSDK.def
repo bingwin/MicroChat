@@ -1,0 +1,14 @@
+EXPORTS
+RegisterCgiCallBack
+StartSDK
+StopSDK
+Login
+NewInit
+NewSendMsg
+NewSync
+SafeFree
+LoadFromDB
+SearchContact
+AddNewFriend
+RecvMobileVerifyCode
+SendMobileVerifyCode

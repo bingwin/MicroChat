@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="500,400" caption="0,0,0,100" roundcorner="4,4">
+<Font shared="true" id="30" name="宋体" size="12" bold="false" />
+<Font shared="true" id="31" name="宋体" size="10" bold="false" /> 
+<Font shared="true" id="32" name="宋体" size="14" /> 
+<Default shared="true" name="VScrollBar" value="button1normalimage=&quot;file='main/scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='main/scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='main/scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='main/scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='main/scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='main/scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='main/scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='main/scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='main/scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='main/scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='main/scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='main/scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='main/scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='main/scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='main/scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='main/scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='main/scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='main/scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='main/scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<VerticalLayout bkimage="friend/background.png" >
+		 <HorizontalLayout height="30" bkcolor2="#FFAAAAA0">
+			<Control width="100" />
+			<Label text="<b>just test</b>" width="300" bold="true" align="center" showhtml="true"/>
+			<Control />
+			<Button name="closebutton" width="29" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;friend/normal.png&apos; source=&apos;56,0,85,20&apos; dest=&apos;0,0,29,20&apos; " hotimage=" file=&apos;friend/hot.png&apos; source=&apos;56,0,85,20&apos; dest=&apos;0,0,29,20&apos; " pushedimage=" file=&apos;friend/active.png&apos; source=&apos;56,0,85,20&apos; dest=&apos;0,0,29,20&apos; " />
+        </HorizontalLayout>
+		<Label name="tips" text="" height="45" align="center" font="30" padding="0,30,0,10" multiline="true" showhtml="true"/>
+		<Edit name="username" text="" width="430" height="25" font="31" bkimage="friend\Input-box.png" bkcolor="#FFFFFFFF" padding="30,0,0,5" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		<HorizontalLayout height="25" padding="0,0,0,10">
+			<Label text="v2数据:" width="50" font="32" align="left" padding="30,0,10,0" />
+			<Edit name="v2Name" text="" width="365" font="32" bkimage="friend\Input-box.png" bkcolor="#FFFFFFFF" padding="5,0,0,0" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		</HorizontalLayout>
+		<HorizontalLayout height="25" padding="0,0,0,30">
+			<Label text="加好友打招呼信息:" width="140" font="32" align="left" padding="30,0,10,0" />
+			<Edit name="sayHello" text="阿尼哈塞呦,思密达~" width="275" font="32" bkimage="friend\Input-box.png" bkcolor="#FFFFFFFF" padding="5,0,0,0" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		</HorizontalLayout>
+		<HorizontalLayout height="60" >
+			<Control />
+			<Button name="search" text="查询" width="60" height="31" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="friend\button.png" hotimage="friend\button2.png" pushedimage="friend\button3.png" />
+			<Button name="verify" text="添加" width="60" height="31" padding="100,0,0,0" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="friend\button.png" hotimage="friend\button2.png" pushedimage="friend\button3.png" />
+			<Control />
+		</HorizontalLayout>
+		<HorizontalLayout >
+			<Label name="headicon" width="60" height="60" padding="10,0,0,0" bkimage="friend/icon.png"/>
+			<RichEdit name="log" text="" align="left" valign="top" vscrollbar="true"  padding="10,0,10,10" showhtml="true" multiline="true" bordercolor="#FF768D9B" bordersize="1"/>	
+		</HorizontalLayout>
+    </VerticalLayout>
+</Window>

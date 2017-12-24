@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="300,100" caption="0,0,0,30" roundcorner="4,4">
+	<VerticalLayout bkimage="login/background.png" >
+		<HorizontalLayout height="30" bkcolor2="#FFAAAAA0">
+			<Control width="40" />
+			<Label text="<b>请输入手机短信授权验证码</b>" width="200" bold="true" align="center" showhtml="true"/>
+			<Control />
+			<Button name="closebtn" width="29" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;login/normal.png&apos; source=&apos;56,0,85,20&apos; dest=&apos;0,0,29,20&apos; " hotimage=" file=&apos;login/hot.png&apos; source=&apos;56,0,85,20&apos; dest=&apos;0,0,29,20&apos; " pushedimage=" file=&apos;login/active.png&apos; source=&apos;56,0,85,20&apos; dest=&apos;0,0,29,20&apos; " />
+		</HorizontalLayout>
+		<HorizontalLayout height="40" padding="0,15,0,0" bkcolor2="#FFAAAAA0">
+			<Edit name="code" text="" width="140" height="30" padding="30,0,30,0" bkimage="login\Input-box.png" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+			<Button name="send" text="确认授权" width="80" height="31" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="login\button.png" hotimage="login\button2.png" pushedimage="login\button3.png" />
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <Window>
+	<VerticalLayout >
+		<VerticalLayout height="533">
+			<RichEdit name="outputEdit" text="" multiline="true" bkclor="#00000000" vscrollbar="true" autovscroll="true" enabled="true" rich="false" readonly="true" wantreturn="true" wantctrlreturn="false" />
+		</VerticalLayout>
+		<HorizontalLayout height="54" inset="0,8,0,0">
+			<Control width="50"/>
+			<Button name="biaoqing" width="26" height="26" normalimage="main\biaoqing.png" hotimage="main\biaoqing_hover.png" pushedimage="main\biaoqing_hover.png" />
+			<Control width="15"/>
+			<Button name="dir" padding="0,3,0,0" width="25" height="23" normalimage="main\dir.png" hotimage="main\dir_hover.png" pushedimage="main\dir_hover.png" />
+			<Control width="18"/>
+			<Button name="screenshot" width="32" height="23" normalimage="main\screenshot.png" hotimage="main\screenshot_hover.png" pushedimage="main\screenshot_hover.png" />
+			<Control />
+		</HorizontalLayout>
+		<VerticalLayout height="110">
+			<RichEdit name="inputEdit" text="" multiline="true" bkclor="#00000000" vscrollbar="true" autovscroll="true" enabled="true" rich="false" readonly="false" wantreturn="true" wantctrlreturn="false" />
+		</VerticalLayout>
+		<HorizontalLayout intset="0,2,0,0">
+			<Control />
+			<Button name="send" width="102" height="39" normalimage="main\send.png" hotimage="main\send_hover.png" pushedimage="main\send_click.png" />
+			<Control width="50"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>
+

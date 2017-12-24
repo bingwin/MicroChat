@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <Window>
+	<ListContainerElement height="98" >
+		<VerticalLayout >
+			<control bkimage="main/line.png" height="1" />
+			<HorizontalLayout height="96" inset="18,18,18,18">
+				<Label name="icon" bkimage="main/icon.png" width="60" />
+				<control width="14" />
+				<VerticalLayout >
+					<HorizontalLayout height="24">
+						<Label name="nickname" text="" align="left" font="10" width="180" endellipsis="true"/>
+						<Label name="time" text="" textcolor="#FFAAAAAA" align="right" font="11" />
+					</HorizontalLayout>
+					<control />
+					<HorizontalLayout height="24">
+						<Label name="history_msg" text="" align="left" font="11" textcolor="#FFAAAAAA" width="150" endellipsis="true"/>
+					</HorizontalLayout>
+				</VerticalLayout>
+			</HorizontalLayout>
+			<control bkimage="main/line.png" height="1" />
+		</VerticalLayout>
+	</ListContainerElement>
+</Window>
+

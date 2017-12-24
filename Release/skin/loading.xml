@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="540,960" >
+	<VerticalLayout bkimage="loading/loading.png" >
+    </VerticalLayout>
+</Window>

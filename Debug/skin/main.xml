@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1273,842" caption="465,0,0,90">
+<Font shared="true" id="0" name="宋体" size="18" default="true" /> 
+<Font shared="true" id="1" name="宋体" size="26" bold="true" default="false" /> 
+<Font shared="true" id="10" name="宋体" size="20" bold="true" /> 
+<Font shared="true" id="11" name="宋体" size="16" /> 
+<Default shared="true" name="VScrollBar" value="button1normalimage=&quot;file='main/scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='main/scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='main/scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='main/scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='main/scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='main/scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='main/scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='main/scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='main/scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='main/scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='main/scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='main/scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='main/scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='main/scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='main/scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='main/scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='main/scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='main/scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='main/scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+ 
+    <HorizontalLayout width="1273" height="842" bkimage="main/bk.png" >
+        <VerticalLayout width="88" inset="14,35,14,35">
+			<Label name="myicon" bkimage="main/icon.png" width="60" height="60" />
+			<Button name="testFriend" normalimage="main/friend.png" hotimage="main/friend_hover.png" pushedimage="main/friend.png" width="70" height="70" padding="0,20,0,0"/>
+        </VerticalLayout>
+		<VerticalLayout width="374" >
+			<Label height="90"/>
+			<List name="main_list" vscrollbar="true" bkcolor="#00000000" itemselectedbkcolor="#FFC3C3C3" itemhotbkcolor="#FFD8D8D8" header="hidden" inset="1,1,0,0" >
+			</List>
+		</VerticalLayout>
+        <VerticalLayout >
+			<HorizontalLayout height="90" inset="25,0,0,0">
+				<Label name="main_friendNickName" text="" width="300" font="1" textcolor="#FF000000" align="left" showhtml="true"/>
+				<Control />
+				<Button name="main_mini_btn" width="52" height="39" normalimage="main/mini.png" hotimage="main/mini_hover.png" pushedimage="main/mini.png"/> 
+				<Button name="main_close_btn" width="53" height="39" normalimage="main/close.png" hotimage="main/close_hover.png" pushedimage="main/close.png"/> 
+			</HorizontalLayout>
+			<VerticalLayout name="show_anything" inset="3,10,1,1">
+				<VerticalLayout height="525">
+					<List name="chat_list" vscrollbar="true" bkcolor="#00000000" itemselectedbkcolor="#00000000" itemhotbkcolor="#00000000" header="hidden" inset="1,1,1,1" >
+					</List>
+				</VerticalLayout>
+				<HorizontalLayout height="54" inset="0,8,0,0">
+				<Control width="50"/>
+				<Button name="biaoqing" width="26" height="26" normalimage="main\biaoqing.png" hotimage="main\biaoqing_hover.png" pushedimage="main\biaoqing_hover.png" />
+				<Control width="15"/>
+				<Button name="dir" padding="0,3,0,0" width="25" height="23" normalimage="main\dir.png" hotimage="main\dir_hover.png" pushedimage="main\dir_hover.png" />
+				<Control width="18"/>
+				<Button name="screenshot" width="32" height="23" normalimage="main\screenshot.png" hotimage="main\screenshot_hover.png" pushedimage="main\screenshot_hover.png" />
+				<Control />
+				</HorizontalLayout>
+				<VerticalLayout height="110">
+					<RichEdit name="inputEdit" text="" multiline="true" bkclor="#00000000" vscrollbar="true" autovscroll="true" enabled="true" rich="false" readonly="false" wantctrlreturn="false" wantreturn="true" />
+				</VerticalLayout>
+				<HorizontalLayout intset="0,2,0,0">
+					<Control />
+					<Button name="send" width="102" height="39" normalimage="main\send.png" hotimage="main\send_hover.png" pushedimage="main\send_click.png" />
+					<Control width="50"/>
+				</HorizontalLayout>
+			</VerticalLayout>
+        </VerticalLayout>
+    </HorizontalLayout>
+</Window>

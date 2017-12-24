@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <Window>
+ <Font shared="true" id="111" name="宋体" size="16" /> 
+	<ListContainerElement inset="16,5,16,5" width="800" >
+		<HorizontalLayout >
+			<VerticalLayout width="500">
+				<Label name="wxid" height="18" text="" font="111" padding="0,0,0,3" align="left" width="400" textcolor="#FFA7A6AA" />
+				<HorizontalLayout >
+					<Label name="icon" bkimage="main/icon.png" width="60" height="60"/>
+					<Control bkimage="main/chat_bk_green_arrow_other.png" padding="0,15,0,16" width="6" height="12"/>
+					<RichEdit name="content" readonly="true" align="left" text="" width="400" bkimage="main/chat_bk_green_other.png" multiline="true" bordercolor="#FFEDEDED" bordersize="2"  borderround="6,6" textpadding="15,20,15,15" />
+				</HorizontalLayout>
+			</VerticalLayout>	
+			<Control />
+		</HorizontalLayout>
+	</ListContainerElement>
+</Window>
